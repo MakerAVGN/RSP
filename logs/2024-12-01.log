@@ -1,8 +1,0 @@
-[2024-12-01T23:01:20.547Z] [INFO] Конфигурация логов: уровень - info, вывод - file
-[2024-12-01T23:01:20.551Z] [INFO] Server is running on port 3000
-[2024-12-01T23:02:01.765Z] [INFO] Конфигурация логов: уровень - debug, вывод - file
-[2024-12-01T23:02:01.769Z] [INFO] Server is running on port 3000
-[2024-12-01T23:03:05.156Z] [INFO] Конфигурация логов: уровень - info, вывод - both
-[2024-12-01T23:03:05.161Z] [INFO] Server is running on port 3000
-[2024-12-01T23:03:12.083Z] [INFO] Конфигурация логов: уровень - debug, вывод - both
-[2024-12-01T23:03:12.087Z] [INFO] Server is running on port 3000
