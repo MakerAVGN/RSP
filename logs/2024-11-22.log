@@ -1,0 +1,100 @@
+[2024-11-22T11:18:58.317Z] [INFO] Server is running on port 3000
+[2024-11-22T11:20:29.237Z] [DEBUG] Server is running on port 3000
+[2024-11-22T11:20:37.676Z] [DEBUG] 
+Incoming Request:
+- Method: GET
+- URL: /api/example
+- Params: {}
+- Query: {}
+- Body: {}
+
+[2024-11-22T11:20:37.678Z] [INFO] Handling GET /api/example
+[2024-11-22T11:20:37.679Z] [DEBUG] 
+Response:
+- Duration: 3ms
+- Body: "{\"message\":\"Hello, World!\"}"
+
+[2024-11-22T11:21:01.345Z] [INFO] Server is running on port 3000
+[2024-11-22T11:21:06.658Z] [INFO] Handling GET /api/example
+[2024-11-22T11:21:38.928Z] [ERROR] Server is running on port 3000
+[2024-11-22T11:22:25.009Z] [INFO] Server is running on port 3000
+[2024-11-22T11:22:31.095Z] [INFO] Handling GET /api/example
+[2024-11-22T11:22:39.198Z] [INFO] Handling GET /api/example
+[2024-11-22T11:22:46.492Z] [INFO] Handling POST /api/example
+[2024-11-22T11:23:09.971Z] [INFO] Handling POST /api/example
+[2024-11-22T11:26:36.153Z] [INFO] Конфигурация логов: уровень - info, вывод - both
+[2024-11-22T11:26:36.162Z] [INFO] Server is running on port 3000
+[2024-11-22T11:26:44.509Z] [INFO] Handling GET /api/example
+[2024-11-22T11:28:49.213Z] [INFO] Server is running on port 3000
+[2024-11-22T11:28:52.322Z] [INFO] 
+Incoming Request:
+- Method: GET
+- URL: /api/example
+- Params: {}
+- Query: {}
+- Body: {}
+
+[2024-11-22T11:28:52.324Z] [INFO] 
+Response:
+- Duration: 2ms
+- Body: "{\"message\":\"Hello, World!\"}"
+
+[2024-11-22T11:31:01.351Z] [INFO] 
+Incoming Request:
+- Method: POST
+- URL: /api/example
+- Params: {}
+- Query: {}
+- Body: {"key":"value"}
+
+[2024-11-22T11:31:01.353Z] [INFO] 
+Response:
+- Duration: 2ms
+- Body: "{\"message\":\"Data received\",\"data\":{\"key\":\"value\"}}"
+
+[2024-11-22T11:33:27.042Z] [INFO] Server is running on port 3000
+[2024-11-22T11:33:41.760Z] [INFO] Server is running on port 3000
+[2024-11-22T11:39:52.719Z] [INFO] Конфигурация логов: уровень - debug, вывод - both
+[2024-11-22T11:39:52.725Z] [INFO] Server is running on port 3000
+[2024-11-22T11:39:58.586Z] [DEBUG] Incoming Request:
+        - Method: POST
+        - URL: /api/example
+        - Headers: {"content-type":"application/json","user-agent":"PostmanRuntime/7.39.1","accept":"*/*","cache-control":"no-cache","postman-token":"b742439b-aa67-4906-bad0-3a5240c44399","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"24"}
+        - Params: {}
+        - Query: {}
+        - Body: {"key":"value"}
+[2024-11-22T11:39:58.588Z] [INFO] Handling POST /api/example
+[2024-11-22T11:39:58.590Z] [DEBUG] Response:
+            - Duration: 4ms
+            - Status: 200
+            - Body: "{\"message\":\"Data received\",\"data\":{\"key\":\"value\"}}"
+[2024-11-22T11:40:16.152Z] [INFO] Конфигурация логов: уровень - info, вывод - both
+[2024-11-22T11:40:16.158Z] [INFO] Server is running on port 3000
+[2024-11-22T11:40:23.660Z] [INFO] Handling GET /api/example
+[2024-11-22T11:40:34.628Z] [INFO] Handling GET /api/example
+[2024-11-22T11:41:48.441Z] [INFO] Конфигурация логов: уровень - debug, вывод - both
+[2024-11-22T11:41:48.447Z] [INFO] Server is running on port 3000
+[2024-11-22T11:41:55.363Z] [DEBUG] Incoming Request:
+        - Method: POST
+        - URL: /api/example
+        - Headers: {"content-type":"application/json","user-agent":"PostmanRuntime/7.39.1","accept":"*/*","cache-control":"no-cache","postman-token":"47516476-7f26-46a5-b66d-34fef3ebaf9e","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"24"}
+        - Params: {}
+        - Query: {}
+        - Body: {"key":"value"}
+[2024-11-22T11:41:55.364Z] [INFO] Handling POST /api/example
+[2024-11-22T11:41:55.366Z] [DEBUG] Response:
+            - Duration: 3ms
+            - Status: 200
+            - Body: "{\"message\":\"Data received\",\"data\":{\"key\":\"value\"}}"
+[2024-11-22T11:44:13.254Z] [DEBUG] Incoming Request:
+        - Method: GET
+        - URL: /api/example
+        - Headers: {"user-agent":"PostmanRuntime/7.39.1","accept":"*/*","cache-control":"no-cache","postman-token":"039d7c3c-7035-4e7f-a1c2-c1b220409d35","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+        - Params: {}
+        - Query: {}
+        - Body: {}
+[2024-11-22T11:44:13.256Z] [INFO] Handling GET /api/example
+[2024-11-22T11:44:13.257Z] [DEBUG] Response:
+            - Duration: 3ms
+            - Status: 200
+            - Body: "{\"message\":\"Hello, World!\"}"
